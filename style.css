@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding-inline: 5em;
+    background: #fff;
+    font-family: 'Space Mono', monospace;
+    text-align: justify;
+}
+
+/* 
+font-family: 'Inconsolata', monospace;
+font-family: 'Space Mono', monospace;
+*/
+
+
+.logo h4 {
+    font-size: 24px;
+    line-height: 25.18px;
+    font-weight: 700;
+    color: #333333;
+    font-family: 'Inconsolata', monospace;
+    margin-top: 40px;
+    display: inline-block;
+}
+
+.page-flex {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 100px;
+}
+
+.page-flex div {
+    width: 47%;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+h2 {
+    font-size: 64px;
+    line-height: 94.78px;
+    font-weight: 700;
+    color: #333333;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+p {
+    font-size: 18px;
+    line-height: 26.66px;
+    font-weight: 400;
+    color: #4F4F4F;
+    width: 62%;
+    margin-bottom: 64px;
+}
+
+button {
+    background: #333333;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 20.73px;
+    font-weight: 700;
+    padding: 1.5em;
+} 
+
+footer {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 14px;
+    line-height: 17.07px;
+    font-weight: 400;
+    width: 100%;
+    margin-bottom: 0;
+}
+
+/* MOBILE RESPOMSIVENESS */
+
+@media  (max-width: 425px) {
+    body {
+        padding-inline: 24px;
+    }
+
+    .page-flex {
+        flex-direction: column;
+        margin-top: 0 !important;
+    }
+
+    .page-flex div {
+        width: 100%;
+        text-align: left;
+    }
+
+    img {
+        margin-top: 44px;
+        margin-bottom: 57px;
+    }
+
+    h2 {
+        font-size: 48px;
+        line-height: 71.709px;
+        font-weight: 700;
+        margin-bottom: 36px;
+    }
+
+    p {
+        width: 100%;
+    }
+}
