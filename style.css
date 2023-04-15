@@ -25,6 +25,7 @@ font-family: 'Space Mono', monospace;
     font-family: 'Inconsolata', monospace;
     margin-top: 40px;
     display: inline-block;
+    text-transform: uppercase;
 }
 
 .page-flex {
